@@ -4,18 +4,13 @@
  */
 .wrapper {
   display: grid;
-
-  gap: 30px;
-
-  margin-top: 10px;
-  min-height: 100vh;
+  gap: var(--spacing-triple);
+  min-height: var(--min-height-wrapper);
+  margin-top: var(--spacing);
 }
 
 main {
-  flex: 1;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
   width: var(--width-offset);;
   max-width: var(--max-width);
+  margin: 0 auto;
 }

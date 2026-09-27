@@ -14,7 +14,7 @@
  * foreldri skilgreinir.
  */
 img {
-  max-width: 100%;
+  max-width: var(--full-width);
 }
 
 /**

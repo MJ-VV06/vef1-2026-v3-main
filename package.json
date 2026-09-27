@@ -1,0 +1,28 @@
+{
+  "name": "vef1-2026-v3-main",
+  "version": "1.0.0",
+  "description": "Verk 3",
+  "repository": {
+    "type": "git",
+    "url": "git@githun.com:MJ-VV06/vef1-2026-v3"
+  },
+  "license": "ISC",
+  "author": "Marijonas",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "parcel index.html 'sidur/*.html' --lazy --no-cache",
+    "build": "parcel build index.html 'sidur/*.html'",
+    "format": "prettier '**/*.{css,html}' --write",
+    "clean": "stylelint '**/*.{css,scss}' --fix"
+  },
+  "dependencies": {
+    "parcel": "^2.16.4"
+  },
+  "devDependencies": {
+    "prettier": "3.9.9",
+    "stylelint": "^17.15.0",
+    "stylelint-config-recess-order": "^7.8.0",
+    "stylelint-config-standard": "^40.0.0",
+    "stylelint-order": "^8.1.1"
+  }
+}

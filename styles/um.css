@@ -1,0 +1,15 @@
+.text h2 {
+  margin-bottom: var(--spacing-double);
+}
+
+.text h3 {
+  margin-bottom: var(--spacing);
+}
+
+.text p {
+  margin-bottom: var(--spacing-triple);
+}
+
+.text img {
+  width: var(--full-width);
+}

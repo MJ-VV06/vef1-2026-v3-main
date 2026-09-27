@@ -7,6 +7,12 @@ header {
   text-align: center;
 }
 
-header h1 {
-  font-size: 3.25rem;
+  header h1 {
+    font-size: var(--font-size-header);
+  }
+
+@media (width > 500px) {
+  header h1 {
+  font-size: var(--font-size-header-large);
+}
 }

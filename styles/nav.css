@@ -9,27 +9,30 @@ nav {
   top: 0;
   left: 0;
   z-index: 10;
-
+  padding: var(--spacing) var(--spacing) var(--spacing-double);
   overflow: hidden;
-
-  padding: 10px 10px 20px;
-  background-color: #ffeedd;
-  border-bottom: 2px solid #000000;
+  background-color: var(--color-background);
+  border-bottom: var(--border-thickness) var(--border-style) var(--color-border);
 }
 
 nav ul {
   display: flex;
-  gap: 20px;
+  gap: var(--spacing-double);
   justify-content: center;
-
-  width: 100%;
+  width: var(--width-offset);;
   overflow: auto;
-
   list-style: none;
 }
 
 nav ul li {
-  font-size: 1.5rem;
+  font-size: var(--font-size-nav);
+}
+
+@media (width > 500px) {
+  nav ul li {
+  font-size: var(--font-size-nav-large);
+}
+
 }
 
 nav a {

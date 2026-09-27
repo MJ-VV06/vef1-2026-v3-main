@@ -18,12 +18,11 @@
  */
 .button {
   display: inline-block;
-  padding: 5px 10px;
-  border: 1px solid #000000;
-  border-radius: 5px;
-
-  color: #ffeedd;
-  background-color: #996644;
-  font-size: 1rem;
+  padding: calc(var(--spacing) / 2) var(--spacing);
+  font-size: var(--button-font-size);
+  color: var(--button-color-text);
   text-decoration: none;
+  background-color: var(--color-accent);
+  border: var(--button-border-thickness) var(--border-style) var(--color-border);
+  border-radius: var(--button-border-raidus);
 }
