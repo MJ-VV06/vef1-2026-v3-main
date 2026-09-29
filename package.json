@@ -12,8 +12,8 @@
   "scripts": {
     "dev": "parcel index.html 'sidur/*.html' --lazy --no-cache",
     "build": "parcel build index.html 'sidur/*.html'",
-    "format": "prettier '**/*.{css,html}' --write",
-    "clean": "stylelint '**/*.{css,scss}' --fix"
+    "lint": "prettier '**/*.{css,html}' --write",
+    "lint:fix": "stylelint '**/*.{css,scss}' --fix"
   },
   "dependencies": {
     "parcel": "^2.16.4"

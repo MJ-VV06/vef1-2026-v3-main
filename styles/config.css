@@ -29,7 +29,8 @@
   --spacing: 10px;
   --spacing-double: calc(var(--spacing) * 2);
   --spacing-triple: calc(var(--spacing) * 3);
-
+  --spacing-half: calc(var(--spacing) / 2);
+  
   /** Grind **/
 
   /* Dálkar og bil á milli þeirra, notað í kortum og fæti. */
