@@ -1,6 +1,5 @@
 
 table {
-  width: var(--full-width);
   min-width: var(--min-width-table);
   margin-bottom: var(--spacing-double);
   border-spacing: 0;
@@ -17,10 +16,11 @@ table tbody tr:nth-child(2n + 1) {
 }
 
 .table-wrapper {
-  overflow: auto;
+  margin-bottom: var(--spacing-double);
+  overflow-x: auto;
 }
 
-@media (width >= 700px) {
+@media (width >= 900px) {
   .table-wrapper {
     overflow: visible;
   }
